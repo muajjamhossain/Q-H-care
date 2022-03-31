@@ -1,0 +1,157 @@
+/* XXL (laptop) Device :1200px. */
+@media (min-width: 1400px) and (max-width: 1650px) {}
+
+@media (min-width: 1200px) and (max-width: 1350px) {
+    .header_part .menu_part .navbar-brand {
+        font-size: 28px;
+        padding-right: 20px;
+    }
+}
+
+
+/* LG Device :992px. */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header_part .menu_part .navbar-brand {
+        font-size: 20px;
+        padding-right: 20px;
+    }
+
+    .header_part .menu_part .menu .nav-item .nav-link {
+        padding: 21px 0px;
+        margin: 0px 9px;
+    }
+}
+
+
+/* -- middium Device -- */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header_part .menu_part .navbar-brand {
+        font-size: 17px;
+        padding-right: 23px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgba(255, 255, 255, 1);
+        border-color: rgba(255, 255, 255, 1);
+        ;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .banner_part {
+        background-position: 53% 26%;
+        padding: 155px 0px 90px;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    .header_part form .btn-outline-success {
+        margin-left: -9%;
+    }
+
+    .header_part .menu_part .menu .nav-item .nav-link {
+        color: #fff;
+        padding: 12px 0px;
+        margin: 0px 20px;
+        position: relative;
+    }
+}
+
+
+
+/* -- Phone Landscape -- */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header_part .menu_part .navbar-brand {
+        font-size: 17px;
+        padding-right: 23px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgba(255, 255, 255, 1);
+        border-color: rgba(255, 255, 255, 1);
+        ;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .banner_part {
+        padding: 135px 0px 70px;
+    }
+
+    h1 {
+        font-size: 31px;
+    }
+
+    .header_part form .btn-outline-success {
+        margin-left: -13%;
+    }
+
+    .header_part .menu_part .menu .nav-item .nav-link {
+        color: #fff;
+        padding: 12px 0px;
+        margin: 0px 20px;
+        position: relative;
+    }
+     .our_product_dtls_part .our_product_top .arrow_lf1 {
+        left: 0px;
+    }
+
+    .our_product_dtls_part .our_product_top .arrow_rt1 {
+        right: 0px;
+    }
+}
+
+
+/* mobile size 480 small Device. */
+
+@media (min-width: 400px) and (max-width: 480px) {}
+
+
+/* Extra small Device. */
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .header_part .menu_part .navbar-brand {
+        font-size: 17px;
+        padding-right: 23px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgba(255, 255, 255, 1);
+        border-color: rgba(255, 255, 255, 1);
+        ;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .banner_part {
+        padding: 135px 0px 70px;
+    }
+
+    h1 {
+        font-size: 31px;
+    }
+
+    .header_part .menu_part .menu .nav-item .nav-link {
+        padding: 12px 0px;
+        margin: 0px 20px;
+    }
+
+    .our_product_dtls_part .our_product_top .arrow_lf1 {
+        left: 0px;
+    }
+
+    .our_product_dtls_part .our_product_top .arrow_rt1 {
+        right: 0px;
+    }
+}
